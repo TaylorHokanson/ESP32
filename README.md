@@ -13,3 +13,4 @@
 2. Sign in to Thinkspeak
 3. Create a new channel
 3. Locate and copy its Write API key
+5. Adapt [this 8266 code](https://github.com/nothans/ESP8266/blob/master/examples/RSSI_to_ThingSpeak.ino)
