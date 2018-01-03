@@ -95,8 +95,7 @@ static unsigned char ACROBOT[] PROGMEM ={
 0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF
 };
 
-void setup()
-{
+void setup(){
   pinMode(16,OUTPUT);
   digitalWrite(16, LOW);    // set GPIO16 low to reset OLED
   delay(50); 
@@ -105,9 +104,14 @@ void setup()
   Wire.begin(4,15);	
   oled.init();                      // Initialze SSD1306 OLED display
   oled.clearDisplay();              // Clear screen
-  oled.drawBitmap(ACROBOT, 1024);   // 1024 pixels for logo
+  
+  // oled.drawBitmap(ACROBOT, 1024);   // 1024 pixels for logo
+  
+  oled.setFont(font5x7);
+  oled.setTextXY(0,0);
+  oled.putString("YAAAS");
 }
 
-void loop()
-{
+void loop(){
+  
 }
