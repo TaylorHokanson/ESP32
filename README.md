@@ -21,4 +21,4 @@ I had some trouble with conflicting libraries(?), so I decided to do a fresh ins
 2. Sign in to Thinkspeak
 3. Create a new channel
 4. Locate and copy its Write API key and Channel ID
-5. Edit Arduino > ESP32_Thingspeak_OLED to reflect your network's SSID/PW and your Thingspeak channel info (adapted from [this code](https://github.com/nothans/ESP8266/blob/master/examples/RSSI_to_ThingSpeak.ino))
+5. Edit Arduino > ESP32_Thingspeak_OLED to reflect your network's SSID/PW and your Thingspeak channel info
